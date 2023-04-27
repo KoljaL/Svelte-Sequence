@@ -1,14 +1,14 @@
 <script>
-	let color = 'color: MediumPurple;';
+	let color = 'color: mediumorchid;';
 	let ms = performance.now();
 
-	console.log('%croutes/+layout.svelte', color, ms);
+	console.log('%croutes/page-one/+layout.svelte', color, ms);
 
 	import Header from '$lib/layout/Header-one.svelte';
 
 	export let data;
 
-	console.log('%croutes/+layout.svelte data', color, data);
+	console.log('%croutes/page-one/+layout.svelte data', color, data);
 </script>
 
 <Header />

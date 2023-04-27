@@ -1,9 +1,7 @@
 <script>
 	let ms = performance.now();
 	let color = 'color: LightCoral;';
-	console.log('%clib/layout/Header.svelte', color, ms);
-	// console.log('lib/layout/Header.svelte', ms);
-	// console.time('lib/layout/Header.svelte');
+	console.log('%clib/layout/Header-one.svelte', color, ms);
 </script>
 
 <div>Page-one Header</div>

@@ -1,11 +1,13 @@
+export const prerender = true;
+
 let color = 'color: MediumPurple;';
 let ms = performance.now();
 
 console.log('%croutes/+layout.js', color, ms);
 
-export async function load(params) {
+export async function load() {
 	let data = {
-		'layout params': params,
+		// 'layout params': params,
 		'data from +layout.js': ms,
 		blockingPromise: await blockingPromise(1000)
 	};

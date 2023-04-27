@@ -1,12 +1,12 @@
-let color = 'color: LimeGreen;';
+let color = 'color: greenyellow;';
 let ms = performance.now();
 
-console.log('%croutes/+page.js', color, ms);
+console.log('%croutes/page-one/+page.js', color, ms);
 
-export async function load({ params }) {
+export async function load({}) {
 	let data = {
-		'page params': params,
-		'data from +page.js': ms,
+		// 'page params': params,
+		'data from page-one/+page.js': ms,
 		blockingPromise: await blockingPromise(1000)
 	};
 	return data;

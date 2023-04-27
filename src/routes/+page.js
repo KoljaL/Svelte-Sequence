@@ -3,9 +3,9 @@ let ms = performance.now();
 
 console.log('%croutes/+page.js', color, ms);
 
-export async function load({ params }) {
+export async function load({}) {
 	let data = {
-		'page params': params,
+		// 'page params': params,
 		'data from +page.js': ms,
 		blockingPromise: await blockingPromise(1000)
 	};

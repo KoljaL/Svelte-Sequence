@@ -1,11 +1,11 @@
-let color = 'color: MediumPurple;';
+let color = 'color: mediumorchid;';
 let ms = performance.now();
 
-console.log('%croutes/+layout.js', color, ms);
+console.log('%croutes/page-one/+layout.js', color, ms);
 
-export async function load(params) {
+export async function load() {
 	let data = {
-		'layout params': params,
+		// 'layout params': params,
 		'data from +layout.js': ms,
 		blockingPromise: await blockingPromise(1000)
 	};

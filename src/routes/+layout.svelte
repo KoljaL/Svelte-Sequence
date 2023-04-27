@@ -12,6 +12,7 @@
 </script>
 
 <nav>
+	<img src="./favicon.svg" alt="" />
 	<a href="./">home</a>
 	<a href="./page-one">page-one</a>
 </nav>
@@ -20,6 +21,16 @@
 <slot />
 
 <style>
+	:global(body) {
+		background-color: #242424;
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+	}
+	img {
+		width: 30px;
+		stroke: white;
+	}
 	nav {
 		width: 300px;
 		display: flex;
@@ -27,7 +38,7 @@
 	}
 	a {
 		text-decoration: none;
-		color: #ff00aa;
+		color: MediumPurple;
 		font-size: large;
 		padding: 1rem;
 	}
