@@ -1,6 +1,6 @@
 # Svelte-Sequence
 
-This is just a playground to get familiar with the order in which the individual files are loaded.
+This is just a playground to get familiar with the order in which SvelteKit files are loaded.
 
 - The app is based on the [SvelteKit](https://kit.svelte.dev/) template.
 - It uses the static-adapter.
