@@ -32,3 +32,7 @@ src
  ┣ app.html
  ┗ hooks.client.js
  ```
+
+ ## Results in the console of firefox
+
+  ![console](./console.png)
